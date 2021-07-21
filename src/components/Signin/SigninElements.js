@@ -2,8 +2,7 @@ import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
 export const Container = styled.div`
-min-height: 692px;
-position: fixed;
+min-height: 580px;
 bottom: 0;
 left: 0;
 right: 0;
@@ -13,7 +12,7 @@ overflow: hidden;
 background: linear-gradient(
   108deg, 
   rgba (1, 147, 86, 1) 0%,
-  rgbe (10, 201, 122, 1) 100%
+  rgba (10, 201, 122, 1) 100%
 );
 
 `
@@ -55,58 +54,64 @@ justify-content: center;
 `
 
 export const Form = styled.form`
-background: #010101;
-max-width: 400px;
+background: #FFCBA4;
+padding: 30px;
+max-width: 800px;
 height: auto: 
 width: 100%
 z-index: 1;
 display: grid;
 margin: 0 auto;
-padding 80px 32px;
-border-radius: 4px;
-box-shadow:
+border-radius: 10px;
+box-shadow: 0px 0px 40px 0px #808080;
+
 
 @media screen and (max-width: 400px){
   padding: 32px 32px;1px 1px 11px 0px #FFCBA4;
-
  }
 `
 
 export const FormH1= styled.h1`
 margin-bottom: 40px;
-color: #fff;
-font-size: 20px;
-font-weight: 400;
+color: #1d1f4b;
+font-size: 24px;
+font-weight: bold;
 text-align: center;
 
 `
 
 export const FormLabel= styled.label`
 margin-bottom: 8px;
-color: #fff;
-font-size: 14px;
+color: #1d1f4b;
+font-size: 16px;
+text-align: start;
 `
 
 export const FormInput= styled.input`
-padding: 16px 16px;
+padding: 10px 10px;
 margin-bottom: 32px;
 border: none;
-border-radius: 50%;
+border-radius: 50px;
+width: 100%;
+box-shadow: 0px 0px 11px 0px #808080;
 `
 
 export const FormButton= styled.button`
-background: #01bf71;
-padding: 16px;
+background: #1d1f4b;
+padding: 10px 20px;
 border: none;
-border-radius: 50%;
+border-radius: 50px;
 color: #fff;
-font-size: 20px;
+font-size: 16px;
 cursor: pointer;
+margin-bottom: 10px;
+box-shadow: 0px 0px 40px 0px #808080;
+
 `
 
 export const Text= styled.span`
 text-align: center;
 margin: top;
-color: #fff;
+color: #1d1f4b;
 font-size: 14px;
 `

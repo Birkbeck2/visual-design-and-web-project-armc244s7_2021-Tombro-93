@@ -2,7 +2,8 @@ import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
 export const FooterContainer = styled.footer`
-background-color: #525252;
+background-color: #808080;
+
 `
 
 export const FooterWrapper = styled.div`
@@ -27,6 +28,7 @@ justify-content: center;
 `
 export const FooterLinksWrapper = styled.div`
 display:flex;
+margin-bottom:20px;
 
 @media screen and (max-width: 820px){
  flex-direction: column;
@@ -65,7 +67,7 @@ margin-bottom: 0.5rem;
 font-size: 14px;
 
 &:hover{
-  color: #01bf71;
+  color: #1d1f4b;
   transition: 0.2s ease-out;
 }
 `
@@ -76,10 +78,10 @@ width: 100%;
 
 export const SocialMediaWrapper = styled.div`
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 align-items: center;
 max-width: 1100px;
-margin 40px auto 0 auto;
+margin: auto;
 
 @media screen and (max-width: 820px){
   flex-direction: column;
@@ -96,6 +98,11 @@ display: flex;
 align-items: center;
 mrgin-bottom: 16px;
 font-weight: bold;
+`
+
+export const FooterLogoImg = styled.img`
+max-width: 125px;
+margin-bottom: 20px;
 `
 
 export const WebsiteLegal = styled.small`

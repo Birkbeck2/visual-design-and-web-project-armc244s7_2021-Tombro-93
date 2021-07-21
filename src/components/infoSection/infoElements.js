@@ -16,7 +16,7 @@ margin-right: auto;
 margin-left: auto;
 width: 100%;
 max-width: 1100px;
-height: 650px;
+height: 700px;
 z-index: 1;
 justify-content: center; 
 padding: 0 50px;
@@ -28,7 +28,7 @@ padding: 0 50px;
 
 @media screen and (max-width: 468px){
   padding: 0 20px;
-  height: 500px;
+  height: 600px;
 }
 
 
@@ -105,7 +105,7 @@ align-items: center;
 `
 
 export const ImgWrap =styled.div`
-max-width: 550px;
+max-width: 400px;
 height: 100%;
 
 

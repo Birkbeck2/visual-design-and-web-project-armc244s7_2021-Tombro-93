@@ -10,11 +10,14 @@ import {
   FooterLink, 
   SocialMediaWrapper,
   SocialLogo,
+  FooterLogoImg,
   WebsiteLegal,
   SocialIcons,
   SocialIconLink,
-  SocialMedia
+  SocialMedia,
 } from './FooterElements'
+import Logo2 from '../../images/sprint-logo-white-01.png'
+
 
 const Footer = () => {
   return (
@@ -58,7 +61,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrapper>
             <SocialLogo to='/'>
-              SPRINT.
+              <FooterLogoImg src={Logo2}/>
             </SocialLogo>
             <WebsiteLegal>Sprint. Copyright {new Date().getFullYear()}</WebsiteLegal>
             <SocialIcons>

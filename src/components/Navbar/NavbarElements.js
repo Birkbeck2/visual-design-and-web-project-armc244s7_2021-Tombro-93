@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom'
 export const Nav = styled.nav` 
  background: #1d1f4b;
  height; 80px;
- margin-top:-70px;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -38,6 +37,10 @@ display: flex;
 align-items: center;
 font-weight: bold;
 text-decoration: none;
+`
+
+export const NavLogoImg = styled.img`
+max-width: 125px;
 `
 
 export const MobileIcon = styled.div`
@@ -78,7 +81,7 @@ padding: 0 1rem;
 height: 100%;
 
 &:hover{
-  border-bottom:2px solid #01bf71;
+  border-bottom:2px solid #fff;
 }
 `
 

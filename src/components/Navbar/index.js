@@ -1,14 +1,17 @@
 import React from 'react'
 import {FaBars} from 'react-icons/fa'
+import Logo1 from '../../images/sprint-logo-white-01.png'
 import {
   Nav,
   NavbarContainer, 
-  NavLogo, MobileIcon, 
+  NavLogo, 
+  NavLogoImg,
+  MobileIcon, 
   NavMenu, 
   NavItem, 
   NavLinks,
   NavBtn,
-  NavBtnLink,
+  NavBtnLink
 } from './NavbarElements';
 
 const Navbar = ({toggle}) => {
@@ -17,7 +20,7 @@ const Navbar = ({toggle}) => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          SPRINT.
+          <NavLogoImg src={Logo1}/>
         </NavLogo>
         <MobileIcon onClick={toggle}>
           <FaBars />

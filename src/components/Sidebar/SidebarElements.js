@@ -62,6 +62,7 @@ transition: 0.3s ease-in-out;
 &:hover{
   color: #1d1f4b
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 `
 export const SideBtnWrapper = styled.div`
