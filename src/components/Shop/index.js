@@ -28,13 +28,13 @@ function Shop() {
   return (
     <div className="Shop">
       <ShopHeader>
-        <ViewCartBtn onClick={() => navigateTo(PAGE_CART)}>
-          View shopping cart ({getCartTotal()})
-        </ViewCartBtn>
-
-        <ViewProductBtn onClick={() => navigateTo(PAGE_PRODUCTS)}>
+      <ViewProductBtn onClick={() => navigateTo(PAGE_PRODUCTS)}>
           Products page
         </ViewProductBtn>
+
+        <ViewCartBtn onClick={() => navigateTo(PAGE_CART)}>
+          View cart ({getCartTotal()})
+        </ViewCartBtn>       
       </ShopHeader>
 
       {page === PAGE_PRODUCTS && (

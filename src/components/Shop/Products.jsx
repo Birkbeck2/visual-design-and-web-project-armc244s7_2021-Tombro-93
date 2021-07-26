@@ -12,25 +12,45 @@ import {
 export default function Products({ setCart, cart }) {
   const [products] = useState([
     {
-      name: 'Converse',
-      cost: 59.99,
-      image:  require('../../images/hurrache.png').default,
+      name: 'New Balance',
+      cost: 75.00,
+      image:  require('../../images/nb.png').default,
         },
     {
       name: 'Nike Hurrache',
-      cost: 59.99,
-      image:  require('../../images/hurrache.png').default,
+      cost: 35.00,
+      image:  require('../../images/hurrache-teo-01.png').default,
         },
            {
-      name: 'New Balance',
-      cost: 59.99,
-      image:  require('../../images/hurrache.png').default,
+      name: 'Clarks',
+      cost: 60.00,
+      image:  require('../../images/clarks.png').default,
         },
     {
-      name: 'Nike Hurrache',
-      cost: 59.99,
-      image:  require('../../images/hurrache.png').default,
+      name: 'Dr Martens',
+      cost: 90.00,
+      image:  require('../../images/dr.png').default,
         },
+    {
+      name: 'Dr Kalpens',
+      cost: 95.00,
+      image:  require('../../images/dr.png').default,
+        },  
+   {
+      name: 'Suedes',
+      cost: 70.00,
+      image:  require('../../images/clarks.png').default,
+      },
+   {
+      name: 'Nike Airs',
+      cost: 45.00,
+      image:  require('../../images/hurrache-teo-01.png').default,
+      },
+    {
+      name: 'Old Balance',
+      cost: 50.00,
+     image:  require('../../images/nb.png').default,
+      },
   ]);
 
   const addToCart = (product) => {
@@ -54,13 +74,13 @@ export default function Products({ setCart, cart }) {
 
   return (
     <>
-      <ShopH1>Products</ShopH1>
+      <ShopH1>Shop the Sprint range</ShopH1>
       <ProductContainer>
         {products.map((product, idx) => (
           <ProductWrapper key={idx}>
             <ProductNameH3>{product.name}</ProductNameH3>
-            <ProductPrice>£{product.cost}</ProductPrice>
             <ProductImage src={product.image} alt={product.name} />
+            <ProductPrice>£{product.cost}</ProductPrice>
             <AddToCartBtn onClick={() => addToCart(product)}>
               Add to Cart
             </AddToCartBtn>

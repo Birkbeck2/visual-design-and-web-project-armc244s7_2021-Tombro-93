@@ -1,14 +1,18 @@
 import React from 'react';
 import { 
-  ProductWrapper,
+  CartProductWrapper,
   RemoveCartBtn,
   ShopH1, 
+  CartHeader,
   ClearCartBtn, 
   CartTotal,
   ProductContainer, 
   ProductNameH3, 
-  ProductImage, 
-  ProductPrice
+  CartProductImage, 
+  ProductPrice,
+  QuantityInput,
+  PaymentBtn,
+  PaymentContainer
  } from './ShopElements';
 
 export default function Cart({ cart, setCart }) {
@@ -39,16 +43,19 @@ export default function Cart({ cart, setCart }) {
 
   return (
     <>
-      <ShopH1>Cart</ShopH1>
+      <ShopH1>Your shopping cart</ShopH1>
+      <CartHeader>
       {cart.length > 0 && (
         <ClearCartBtn onClick={clearCart}>Clear Cart</ClearCartBtn>
       )}
+      </CartHeader>
       <ProductContainer>
         {cart.map((product, idx) => (
-          <ProductWrapper key={idx}>
+          <CartProductWrapper key={idx}>
             <ProductNameH3>{product.name}</ProductNameH3>
+            <CartProductImage src={product.image} alt={product.name} />
             <ProductPrice>£{product.cost}</ProductPrice>
-            <input
+            <QuantityInput
               value={product.quantity}
               onChange={(e) =>
                 setQuantity(
@@ -57,15 +64,16 @@ export default function Cart({ cart, setCart }) {
                 )
               }
             />
-            <ProductImage src={product.image} alt={product.name} />
             <RemoveCartBtn onClick={() => removeFromCart(product)}>
-              Remove
+              X
             </RemoveCartBtn>
-          </ProductWrapper>
+          </CartProductWrapper>
         ))}
+         <CartTotal>Total Cost: £{getTotalSum()}</CartTotal>
       </ProductContainer>
-
-      <CartTotal>Total Cost: £{getTotalSum()}</CartTotal>
+      <PaymentContainer>
+      <PaymentBtn>PROCEED TO PAY</PaymentBtn>
+      </PaymentContainer>
     </>
   );
 }
