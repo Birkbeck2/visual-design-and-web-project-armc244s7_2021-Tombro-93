@@ -11,8 +11,6 @@ import {
   FormInput,
   Text,
 } from './SigninElements'
-import Footer from '../Footer'
-import Navbar from '../Navbar'
 
 const SignIn = () => {
   return (
