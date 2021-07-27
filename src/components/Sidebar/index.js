@@ -19,17 +19,17 @@ const Sidebar = ({isOpen, toggle}) => {
       </Icon>
       <SidebarWrap>
         <SidebarMenu>
-          <SidebarLink to='/' onClick={toggle}>
+          <SidebarLink to='/shop' onClick={toggle}>
            New In
           </SidebarLink>
-          <SidebarLink to='men' onClick={toggle}>
+          <SidebarLink to='/shop' onClick={toggle}>
            Men
           </SidebarLink>
-          <SidebarLink to='women' onClick={toggle}>
+          <SidebarLink to='/shop' onClick={toggle}>
            Women
           </SidebarLink>
-          <SidebarLink to='brands' onClick={toggle}>
-           Brands
+          <SidebarLink to='/promotion' onClick={toggle}>
+           Contact
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrapper>

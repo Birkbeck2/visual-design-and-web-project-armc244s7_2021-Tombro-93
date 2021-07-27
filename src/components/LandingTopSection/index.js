@@ -27,7 +27,7 @@ const TopSection = () => {
       <TopContent>
         <TopH1>Summer is here</TopH1>
         <TopBtnWrapper>
-          <Button to='/' onMouseEnter={onHover}
+          <Button to='/shop' onMouseEnter={onHover}
            onMouseLeave={onHover} 
            primary='true'
            dark='false'

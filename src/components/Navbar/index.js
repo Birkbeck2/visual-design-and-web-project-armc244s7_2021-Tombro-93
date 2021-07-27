@@ -14,6 +14,7 @@ import {
   NavBtnLink
 } from './NavbarElements';
 
+
 const Navbar = ({toggle}) => {
   return (
    <>
@@ -27,16 +28,16 @@ const Navbar = ({toggle}) => {
         </MobileIcon>
         <NavMenu>
           <NavItem>
-            <NavLinks to='/store'>New In</NavLinks>
+            <NavLinks to='/shop'>New In</NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to='/store'>Men</NavLinks>
+            <NavLinks to='/shop'>Men</NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to='/store'>Women</NavLinks>
+            <NavLinks to='/shop'>Women</NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to='/store'>Brands</NavLinks>
+            <NavLinks to='/promotion'>Promotion</NavLinks>
           </NavItem>
         </NavMenu>
         <NavBtn>
