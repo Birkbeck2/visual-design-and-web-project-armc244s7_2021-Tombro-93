@@ -12,7 +12,8 @@ import {
   ProductPrice,
   QuantityInput,
   PaymentBtn,
-  PaymentContainer
+  PaymentContainer,
+  CartProductNameH3
  } from './ShopElements';
 
 export default function Cart({ cart, setCart }) {
@@ -52,7 +53,7 @@ export default function Cart({ cart, setCart }) {
       <ProductContainer>
         {cart.map((product, idx) => (
           <CartProductWrapper key={idx}>
-            <ProductNameH3>{product.name}</ProductNameH3>
+            <CartProductNameH3>{product.name}</CartProductNameH3>
             <CartProductImage src={product.image} alt={product.name} />
             <ProductPrice>£{product.cost}</ProductPrice>
             <QuantityInput

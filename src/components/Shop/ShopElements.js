@@ -113,6 +113,17 @@ font-size: 19px;
 font-weight: 200;
 `
 
+export const CartProductNameH3 = styled.h3`
+text-align: center;
+padding: 15px;
+font-size: 19px;
+font-weight: 200;
+
+@media screen and (max-width: 526px){
+  display: none;
+}
+`
+
 export const ProductPrice = styled.h3`
 text-align: center;
 font-size: 24px;
@@ -147,6 +158,7 @@ padding: 5px;
 export const CartProductImage = styled.img`
 max-width: 250px;
 max-height: 100px;
+
 `
 
 export const AddToCartBtn = styled.button`

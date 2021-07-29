@@ -39,7 +39,6 @@ padding: 0 50px;
 
 }
 
-
 ` 
 
 export const ServiceLink1 = styled(Link)`
