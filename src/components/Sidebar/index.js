@@ -23,13 +23,10 @@ const Sidebar = ({isOpen, toggle}) => {
            New In
           </SidebarLink>
           <SidebarLink to='/shop' onClick={toggle}>
-           Men
-          </SidebarLink>
-          <SidebarLink to='/shop' onClick={toggle}>
-           Women
+           Shop
           </SidebarLink>
           <SidebarLink to='/promotion' onClick={toggle}>
-           Contact
+           Promotion
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrapper>

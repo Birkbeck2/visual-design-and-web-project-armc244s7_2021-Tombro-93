@@ -31,30 +31,26 @@ const Footer = () => {
                 <FooterLink to='/signin'>Sizing</FooterLink>
                 <FooterLink to='/signin'>Help</FooterLink>
                 <FooterLink to='/signin'>Works for us</FooterLink>
-                <FooterLink to='/signin'>My orders</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
-              <FooterLinkTitle>About us</FooterLinkTitle>
-                <FooterLink to='/signin'>Sizing</FooterLink>
-                <FooterLink to='/signin'>Help</FooterLink>
-                <FooterLink to='/signin'>Works for us</FooterLink>
-                <FooterLink to='/signin'>My orders</FooterLink>
+              <FooterLinkTitle>Contact us</FooterLinkTitle>
+                <FooterLink to='/signin'>Email</FooterLink>
+                <FooterLink to='/signin'>Phone</FooterLink>
+                <FooterLink to='/signin'>Write</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>About us</FooterLinkTitle>
-                <FooterLink to='/signin'>Sizing</FooterLink>
-                <FooterLink to='/signin'>Help</FooterLink>
-                <FooterLink to='/signin'>Works for us</FooterLink>
-                <FooterLink to='/signin'>My orders</FooterLink>
+              <FooterLinkTitle>My Orders</FooterLinkTitle>
+                <FooterLink to='/signin'>Delivery</FooterLink>
+                <FooterLink to='/signin'>Returns</FooterLink>
+                <FooterLink to='/signin'>Track order</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
-              <FooterLinkTitle>About us</FooterLinkTitle>
-                <FooterLink to='/signin'>Sizing</FooterLink>
-                <FooterLink to='/signin'>Help</FooterLink>
-                <FooterLink to='/signin'>Works for us</FooterLink>
-                <FooterLink to='/signin'>My orders</FooterLink>
+              <FooterLinkTitle>Legal</FooterLinkTitle>
+                <FooterLink to='/signin'>Terms</FooterLink>
+                <FooterLink to='/signin'>Complaints</FooterLink>
+                <FooterLink to='/signin'>Support</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>

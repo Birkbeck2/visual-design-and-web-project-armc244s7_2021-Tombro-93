@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Link} from 'react-router-dom'
 
 export const ServicesContainer = styled.div` 
 display: flex;
@@ -40,6 +41,14 @@ padding: 0 50px;
 
 
 ` 
+
+export const ServiceLink1 = styled(Link)`
+text-decoration: none;
+`
+
+export const ServiceLink2 = styled(Link)`
+text-decoration: none;
+`
 
 export const ServicesImage = styled.img`
 width: 100%;

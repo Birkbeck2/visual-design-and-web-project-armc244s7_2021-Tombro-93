@@ -21,7 +21,7 @@ const Navbar = ({toggle}) => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          <NavLogoImg src={Logo1}/>
+          <NavLogoImg alt="Sprint Logo" src={Logo1}/>
         </NavLogo>
         <MobileIcon onClick={toggle}>
           <FaBars />
@@ -31,10 +31,7 @@ const Navbar = ({toggle}) => {
             <NavLinks to='/shop'>New In</NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to='/shop'>Men</NavLinks>
-          </NavItem>
-          <NavItem>
-            <NavLinks to='/shop'>Women</NavLinks>
+            <NavLinks to='/shop'>Shop</NavLinks>
           </NavItem>
           <NavItem>
             <NavLinks to='/promotion'>Promotion</NavLinks>

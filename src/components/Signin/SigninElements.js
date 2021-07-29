@@ -109,9 +109,10 @@ box-shadow: 0px 0px 40px 0px #808080;
 
 `
 
-export const Text= styled.span`
+export const Text= styled.a`
 text-align: center;
 margin: top;
 color: #1d1f4b;
 font-size: 14px;
+cursor: pointer;
 `

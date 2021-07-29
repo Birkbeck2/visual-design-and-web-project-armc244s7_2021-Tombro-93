@@ -5,9 +5,9 @@ import Icon3 from '../../images/converse-01.jpg'
 import 
 {ServicesContainer,
   ServicesWrapper,
-
-  ServicesImage,
-
+ServicesImage,
+ServiceLink1,
+ServiceLink2
 } from './ServiceElements'
 
 const Services = () => {
@@ -15,9 +15,15 @@ const Services = () => {
     <>
       <ServicesContainer>
         <ServicesWrapper>
-            <ServicesImage src={Icon1}/>
+          <ServiceLink1 to='/shop'>
+          <ServicesImage alt="casual trainer" src={Icon1}/>
+          </ServiceLink1>
+          <ServiceLink1 alt="running shoe" to='/shop'>
             <ServicesImage src={Icon2}/>
+          </ServiceLink1>
+          <ServiceLink2 alt="converse sale image" to='/promotion'>
             <ServicesImage src={Icon3}/>
+            </ServiceLink2>
         </ServicesWrapper>
       </ServicesContainer>
     </>
