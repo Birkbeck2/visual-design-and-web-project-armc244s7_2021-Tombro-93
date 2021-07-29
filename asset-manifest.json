@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.af664b5e.chunk.css",
+    "main.js": "/static/js/main.b5cd0679.chunk.js",
+    "main.js.map": "/static/js/main.b5cd0679.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.df64d4b3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.df64d4b3.js.map",
+    "static/js/2.57506650.chunk.js": "/static/js/2.57506650.chunk.js",
+    "static/js/2.57506650.chunk.js.map": "/static/js/2.57506650.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.af664b5e.chunk.css.map": "/static/css/main.af664b5e.chunk.css.map",
+    "static/js/2.57506650.chunk.js.LICENSE.txt": "/static/js/2.57506650.chunk.js.LICENSE.txt",
+    "static/media/air-force-01.6b272a99.jpg": "/static/media/air-force-01.6b272a99.jpg",
+    "static/media/clarks.png": "/static/media/clarks.f8f9f6a5.png",
+    "static/media/converse-01.2e998754.jpg": "/static/media/converse-01.2e998754.jpg",
+    "static/media/dr.png": "/static/media/dr.021bb362.png",
+    "static/media/hurrache-teo-01.png": "/static/media/hurrache-teo-01.781fb506.png",
+    "static/media/hurrache.png": "/static/media/hurrache.a744daa8.png",
+    "static/media/nb.png": "/static/media/nb.556e2df5.png",
+    "static/media/new1.24c78bee.png": "/static/media/new1.24c78bee.png",
+    "static/media/new2.ad6767ef.png": "/static/media/new2.ad6767ef.png",
+    "static/media/new4.247cd6f5.png": "/static/media/new4.247cd6f5.png",
+    "static/media/new5.48b5a175.png": "/static/media/new5.48b5a175.png",
+    "static/media/new6.99b1d652.png": "/static/media/new6.99b1d652.png",
+    "static/media/reebok.png": "/static/media/reebok.8e6e02c6.png",
+    "static/media/shoe-navy-01.7dda214a.jpg": "/static/media/shoe-navy-01.7dda214a.jpg",
+    "static/media/sprint-logo-white-01.2d442cd7.png": "/static/media/sprint-logo-white-01.2d442cd7.png",
+    "static/media/video.504b9399.mp4": "/static/media/video.504b9399.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df64d4b3.js",
+    "static/js/2.57506650.chunk.js",
+    "static/css/main.af664b5e.chunk.css",
+    "static/js/main.b5cd0679.chunk.js"
+  ]
+}
