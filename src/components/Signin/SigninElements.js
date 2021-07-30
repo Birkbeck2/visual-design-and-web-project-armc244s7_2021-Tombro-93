@@ -96,7 +96,7 @@ width: 100%;
 box-shadow: 0px 0px 11px 0px #808080;
 `
 
-export const FormButton= styled(Link)`
+export const FormButton= styled.button`
 background: #1d1f4b;
 padding: 10px 20px;
 border: none;
