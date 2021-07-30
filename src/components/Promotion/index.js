@@ -30,6 +30,8 @@ import nb5 from '../../images/new1.png'
 const Promo = () => {
   return (
     <div>
+
+      
      <PromoContainer>
       <PromoImgWrap>
        <SectionLeft>

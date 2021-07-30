@@ -48,9 +48,9 @@ const Footer = () => {
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Legal</FooterLinkTitle>
-                <FooterLink to='/signin'>Terms</FooterLink>
-                <FooterLink to='/signin'>Complaints</FooterLink>
-                <FooterLink to='/signin'>Support</FooterLink>
+                <FooterLink to='/hold'>Terms</FooterLink>
+                <FooterLink to='/hold'>Complaints</FooterLink>
+                <FooterLink to='/hold'>Support</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>

@@ -228,7 +228,7 @@ justify-content: center;
 margin-bottom: 25px;
 `
 
-export const PaymentBtn = styled.button`
+export const PaymentBtn = styled(Link)`
 cursor: pointer;
 font-size: 24px;
 font-weight: bold;

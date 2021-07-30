@@ -26,7 +26,7 @@ const SignIn = () => {
               <FormInput type='email' required placeholder="example@email.com" />
               <FormLabel htmlFor='for'>Password</FormLabel>
               <FormInput type='password' required placeholder='Must contain 8 charachters' />
-              <FormButton type='submit' to='/'>Let's go!</FormButton>
+              <FormButton type='submit' to='/hold'>Let's go!</FormButton>
               <Text>Forgot password?</Text>
             </Form>
           </FormContent>

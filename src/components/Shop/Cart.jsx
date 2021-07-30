@@ -73,7 +73,7 @@ export default function Cart({ cart, setCart }) {
          <CartTotal>Total Cost: £{getTotalSum()}</CartTotal>
       </ProductContainer>
       <PaymentContainer>
-      <PaymentBtn to='/'>PROCEED TO PAY</PaymentBtn>
+      <PaymentBtn to='/hold'>PROCEED TO PAY</PaymentBtn>
       </PaymentContainer>
     </>
   );
