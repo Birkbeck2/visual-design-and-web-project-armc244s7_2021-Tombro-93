@@ -23,4 +23,5 @@ width: 400px;
 export const HoldP = styled.p`
 font-size: 19px;
 padding: 35px;
+color: #565656;
 `
