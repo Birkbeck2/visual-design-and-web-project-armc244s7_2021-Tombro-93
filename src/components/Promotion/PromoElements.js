@@ -12,12 +12,12 @@ export const PromoContainer = styled.div`
 }
 `
 
-export const PromoImgWrap = styled.div` 
+export const PromoImgWrap = styled.section` 
  display: flex;
  flex-direction: row;
 `
 
-export const SectionLeft = styled.div` 
+export const SectionLeft = styled.aside` 
 display: flex;
 flex-direction: column;
 max-width: 80px;
